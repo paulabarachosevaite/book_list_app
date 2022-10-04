@@ -17,6 +17,8 @@ app.get("/", (req, res) => {
   res.send("Hello");
 });
 
+app.use("/books", require("./routes/bookRoutes"));
+
 app.use("/users", require("./routes/userRoutes"));
 
 app.use(errorHandler);

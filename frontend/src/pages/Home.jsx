@@ -8,7 +8,7 @@ function Home() {
         <p className="sectionText">Choose the option below</p>
       </section>
       <div className="homeOptions">
-        <Link className="homeBtn newBook" to="/add-book">
+        <Link className="homeBtn newBook" to="/new-book">
           Add new book
         </Link>
         <Link className="homeBtn lists" to="/books">

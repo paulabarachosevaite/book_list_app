@@ -24,7 +24,7 @@ function Header() {
       <ul className="headerList">
         {user ? (
           <li className="headerListItem">
-            <button onClick={onLogout}>
+            <button className="logoutBtn" onClick={onLogout}>
               <FaSignOutAlt />
               Logout
             </button>

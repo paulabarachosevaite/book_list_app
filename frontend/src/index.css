@@ -44,6 +44,20 @@ body {
   margin: 0.5rem;
 }
 
+.logoutBtn {
+  background-color: #411530;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 8rem;
+}
+
+.logoutBtn:hover {
+  background-color: #d1512d;
+}
+
 .underline {
   position: relative;
 }
@@ -116,6 +130,11 @@ body {
   background-color: #411530;
   color: #fff;
   font-size: 1.2rem;
+  border: none;
+}
+
+.formSubmitBtn:hover {
+  background-color: #d1512d;
 }
 
 /* END OF FORM */
@@ -144,4 +163,98 @@ body {
 }
 .lists {
   background-color: #d1512d;
+}
+
+/* END OF HOME PAGE */
+
+/* START OF BOOK FORM */
+
+.inputGroupLabel {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.inputContainer textarea {
+  height: 5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.selectInput {
+}
+
+.radioInputContainer {
+}
+.radioInputLabel {
+  margin-left: 0.5rem;
+}
+
+.radioButton {
+  margin-left: 1rem;
+}
+
+/* END OF BOOK FORM */
+
+/* START OF BOOK LIST */
+.bookListContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  -webkit-box-shadow: -2px 2px 30px 3px rgba(0, 0, 0, 0.35);
+  box-shadow: -1px 1px 8px 1px rgba(0, 0, 0, 0.35);
+}
+
+.bookItemContainer {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bookItemTitle {
+  font-size: 1rem;
+  width: 30vw;
+  font-weight: 400;
+}
+
+.bookItem {
+  width: 70vw;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.viewItemBtn {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #411530;
+  background-color: #d1512d;
+  width: 8rem;
+  height: 2rem;
+  border-radius: 0.1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  margin: 1rem;
+}
+.viewItemBtn:hover {
+  background-color: #411530;
+}
+/* END OF BOOK LIST */
+
+/* GO BACK BUTTON */
+.goBackBtn {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #411530;
+}
+
+.goBackBtn:hover {
+  color: #d1512d;
 }
